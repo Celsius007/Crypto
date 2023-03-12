@@ -5,12 +5,15 @@ app = FastAPI() # we create a fastapi instance
 # Define a root `/` endpoint with a '@' decorator
 @app.get('/')
 def index():
-    # whenever I "get" the "/" root, I have ok: True as a result
-    return {'ok': True}
+    # whenever I "get" the "/" root, I have connection: True as a result
+    return {'connection': True}
 
 # Creating a new endpoint called predict with params
-@app.get('/predict') # "get" endpoint again
-def predict(day_of_week, time_of_day):
-    # returns wait time as the product of week day and day time
-    wait_time = int(day_of_week) * int(time_of_day) # changing str to int
-    return {'wait_time': wait_time} # passing a value without parameters for the time being
+@app.get('/product') # "get" endpoint again
+def product(input_1, input_2):
+    # returns the product of two inputs
+    product = int(input_1) * int(input_2) # changing str to int
+    return {'result': product} # passing a value without parameters for the time being
+
+if __name__ == '__main__':
+    print(product(1, 2))
