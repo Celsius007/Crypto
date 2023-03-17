@@ -7,7 +7,7 @@ from datetime import date
 
 
 
-
+#pourquoi ca bug !
 
 st.set_page_config(
     page_title="The team",
@@ -40,6 +40,3 @@ st.markdown("**Aran :** Lucky us, he jumped in the project to take care of the m
 st.image("../raw_data/logo_united.jpeg", width=150,)
 
 st.markdown("**Vincent :** As the man in charge of the frontend, he chose to put the biggest club in the world at the end of this page. He is a project manager in traceability (his [compagny](https://www.productdna.com/en/)). He aim to learn, develop and use new skills to built a better and smarter humanised world !")
-
-
-
