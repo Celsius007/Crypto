@@ -4,6 +4,7 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 from datetime import date
+from PIL import Image
 
 
 
@@ -25,7 +26,8 @@ st.markdown("---")
 with open("../designing.css") as source_des :
     st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 
-st.image("raw_data/logo_real.jpeg", width=130,)
+image1 = Image.open('raw_data/logo_real.jpeg')
+st.image(image1, width=130,)
 
 st.markdown(" **Alexis :** He initiated the project and was responsible of scapping the data from the API. As he describe himself, 21, Brussels, Chess, Crypto, Combat Sports, Finance and Engineering. Planning on freelancing as a Data Scientist as well as creating apps. Tempus Fugit ")
 
