@@ -2,7 +2,7 @@ import json
 
 import streamlit as st
 import requests
-#from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie
 from datetime import date
 
 st.set_page_config(
@@ -40,7 +40,7 @@ def load_lottieurl(url: str):
 
 lottie_json = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_27klftwl.json")
 
-#st_lottie(lottie_json, height=300)
+st_lottie(lottie_json, height=300)
 
 st.markdown('''
 
