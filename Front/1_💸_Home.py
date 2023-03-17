@@ -22,7 +22,7 @@ st.markdown("---")
 st.markdown('''
 
         Welcome to our MVP.\n
-        Here you will find our bitcoin price evolution prediction!
+        Here you will find our Bitcoin price evolution prediction!
         It will give you the expected price in 24h.
 
         ''')
