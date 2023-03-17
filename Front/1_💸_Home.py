@@ -12,7 +12,7 @@ st.set_page_config(
 
 
 
-with open("cd../crypto/Front/designing.css") as source_des :
+with open(designing.css) as source_des :
     st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'>CPP<br>- Crypto Price Prediction -<br> Or how to get rich</h1>", unsafe_allow_html=True)
 
