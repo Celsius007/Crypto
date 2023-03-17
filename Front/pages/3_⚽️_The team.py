@@ -22,7 +22,7 @@ st.markdown("""
             """)
 st.markdown("---")
 
-with open("cd/designing.css") as source_des :
+with open("cd../cd../designing.css") as source_des :
     st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 
 st.image("raw_data/logo_real.jpeg", width=130,)
