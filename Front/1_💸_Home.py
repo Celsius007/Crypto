@@ -10,9 +10,9 @@ st.set_page_config(
     page_icon="💸",
 )
 
-designing = "designin.css"
 
-with open(designing) as source_des :
+
+with open("style.css") as source_des :
     st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'>CPP<br>- Crypto Price Prediction -<br> Or how to get rich</h1>", unsafe_allow_html=True)
 
