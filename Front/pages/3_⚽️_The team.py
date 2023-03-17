@@ -22,8 +22,8 @@ st.markdown("""
             """)
 st.markdown("---")
 
-#with open("designing.css") as source_des :
-    #st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
+with open("designing.css") as source_des :
+    st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
 
 st.image("raw_data/logo_real.jpeg", width=130,)
 
@@ -42,4 +42,3 @@ st.image("raw_data/logo_united.jpeg", width=150,)
 st.markdown("**Vincent :** As the man in charge of the frontend, he chose to put the biggest club in the world at the end of this page. He is a project manager in traceability (his [compagny](https://www.productdna.com/en/)). He aim to learn, develop and use new skills to built a better and smarter humanised world !")
 
 
-st.markdown("[![Foo](https://tenor.com/en-GB/view/cr7manchester-united-ronaldo-cr7-manchester-united-siiu-gif-23937536)](http://google.com.au/)")
