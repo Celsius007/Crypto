@@ -18,7 +18,7 @@ url = 'https://crypto-j2nsa5srea-ew.a.run.app'
     #'feature1': param1,  # 0 for Sunday, 1 for Monday, ...
     #'feature2': param2
 #}
-response = requests.get('https://crypto-j2nsa5srea-ew.a.run.app')
+response = requests.get('https://crypto-j2nsa5srea-ew.a.run.app/predict')
 
 
 
