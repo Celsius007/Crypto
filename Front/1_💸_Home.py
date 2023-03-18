@@ -6,6 +6,7 @@ from streamlit_lottie import st_lottie
 from datetime import date
 from PIL import Image
 
+st.set_page_config(initial_sidebar_state="collapsed")
 
 tab1, tab2, tab3 = st.tabs(["💸 Home", "📈 Prediction", "⚽️ The team"])
 
